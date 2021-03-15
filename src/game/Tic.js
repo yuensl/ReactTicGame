@@ -15,7 +15,7 @@ class Square extends React.Component {
         //onClick={function() { alert('click'); }}
         onClick={() => this.setState({ value: "X" })}
       >
-        {this.props.value}
+        {this.state.value}
       </button>
     );
   }
